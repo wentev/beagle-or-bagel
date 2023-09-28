@@ -1,5 +1,5 @@
 
-// cursor
+// cursor :)
 const imageContainer = document.getElementById('image-container');
 const hoverImage = document.getElementById('hover-img');
 const parameterDisplay = document.getElementById('parameter-display');

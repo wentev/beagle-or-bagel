@@ -7,51 +7,43 @@ html {
     background-position: 75%;
     background-color: black;
     background-attachment: fixed;
-
-    cursor: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐶</text></svg>')
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>🔍</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+/* turns off scroll*/
 html, body {
     overflow-x: hidden;
     overflow-y: hidden;
   }
 
-body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-
 #image-container {
-    position: relative;
+    position: fixed;
 }
 
 #hover-img {  
     position:fixed;
     width: 20%;
     height: auto;
-    bottom: 180px;
-    left: 150px;
+    bottom: 10%;
+    left: 10%;
     
 }
-
-.hovering {
-    cursor: pointer;
+#parameter-container {
+    max-height:min-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
 }
 
 #parameter-display {
-    text-align: center;
+    /* background */ 
+    background-color: black;
 
-    font-size: xx-large;
+    /* text and font */
+    text-align: center;
+    font-size: 300%;
+    font-style: italic;
     color:aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-    display: none;
 }

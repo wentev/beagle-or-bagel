@@ -5,13 +5,13 @@ const hoverImage = document.getElementById('hover-img');
 const parameterDisplay = document.getElementById('parameter-display');
 let isHovering = false;
 
-imageContainer.addEventListener('mouseenter', () => {
+imageContainer.addEventListener('pointerenter', () => {
     isHovering = true;
     parameterDisplay.textContent = "beagle!";
 
 });
 
-imageContainer.addEventListener('mouseleave', () => {
+imageContainer.addEventListener('pointerleave', () => {
     isHovering = true;
     parameterDisplay.textContent = "bagel...";
 });

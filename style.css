@@ -16,18 +16,21 @@ html, body {
     overflow-y: hidden;
   }
 
+/* background bagel */
 #image-container {
     position: fixed;
 }
 
+/* beagle img */
 #hover-img {  
     position:fixed;
     width: 20%;
     height: auto;
     bottom: 10%;
     left: 10%;
-    
 }
+
+
 #parameter-container {
     max-height:min-content;
     position: relative;
